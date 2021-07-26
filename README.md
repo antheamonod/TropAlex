@@ -1,1 +1,7 @@
-# TropAlex
+# TropAlex: Alexandrov Curvature in the Tropical Projective Torus with the Tropical Metric
+
+This repository provides code to implement the numerical experiments and run the simulations in [Améndola and Monod](https://arxiv.org/abs/2105.07423), which studies classical Alexandrov curvature in the tropical projective torus with the tropical metric (generalized Hilbert projective metric).  Alexandrov curvature is a generalization of classical Riemannian sectional curvature to more general metric spaces; it is determined by a comparison of triangles in an arbitrary metric space to corresponding triangles in Euclidean space.  In the polyhedral setting of tropical geometry, triangles are a combinatorial object, which adds a combinatorial flavor to the study.
+
+In this repository, we provide code that studies Alexandrov curvature in the plane and in higher dimensions.  In the plane, there are five combinatorially distinct tropical triangles; we study tropical triangles whose edges are given by unique tropical line segments.  In this repository, we provide functions that randomly sample tropical triangles and returns their Alexandrov curvature and combinatorial type; we also provide functions that allow for random sampling of tropical triangles by combinatorial type.
+
+For further detail on Alexandrov curvature, the tropical metric and the tropical projective torus, please see [Améndola and Monod](https://arxiv.org/abs/2105.07423) and the references therein.
