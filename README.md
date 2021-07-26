@@ -21,7 +21,11 @@ The easiest method to install this package is with the following example command
 Alternatively, it is also possible to [install R packages from the command line](http://cran.r-project.org/doc/manuals/r-release/R-admin.html#Installing-packages).
 
 ### Relevant Citations
-C. Améndola and A. Monod. An Invitation to Tropical Alexandrov Curvature. arXiv:2105.07423.
+Carlos Améndola and Anthea Monod. An Invitation to Tropical Alexandrov Curvature. arXiv:2105.07423.
+
+### Credit
+
+Beatrice Matteo contributed to this repository in partial fulfillment of requirements for the degree of MSc in Statistics at Imperial College London.
 
 ### Questions and Feedback
 For questions or concerns with this repository, please contact [Beatrice Matteo](mailto:beatrice.matteo20@imperial.ac.uk) or [Anthea Monod](mailto:a.monod@imperial.ac.uk).
