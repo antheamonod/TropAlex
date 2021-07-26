@@ -12,7 +12,7 @@ R is a widely used, free, and open source software environment for statistical c
 ### R Packages Required for Sampling Tropical Triangles
 Randomly sampling tropical triangles by combinatorial type requires the installation of the following R library:
 
-* [hitandrun](https://cran.r-project.org/web/packages/hitandrun/index.html): ``Hit and Run'' and ``Shake and Bake'' for Sampling Uniformly from Convex Shapes
+* [hitandrun](https://cran.r-project.org/web/packages/hitandrun/index.html): "Hit and Run" and "Shake and Bake'' for Sampling Uniformly from Convex Shapes
 
 The easiest method to install this package is with the following example command entered in an R shell:
 
