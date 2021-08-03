@@ -23,8 +23,19 @@ Alternatively, it is also possible to [install R packages from the command line]
 ## Description of R Scripts
 
 The `Computing_Curvature` directory contains the following set of R scripts:
-* `Curvature2D.R` which computes the curvature of tropical triangles in the 3-dimensional tropical projective torus (plane)
-* `CurvatureND.R` computes the curvature of tropical triangles in the n-dimensional tropical projective torus
+* `Curvature2D.R` which computes the Alexandrov curvature of tropical triangles in the 3-dimensional tropical projective torus (plane).
+* `CurvatureND.R` computes the Alexandrov curvature of tropical triangles in the n-dimensional tropical projective torus.
+* `typeFunction.R` returns the combinatorial type of tropical triangle in the plane; there are five possibilities, please see the reference by Améndola and Monod (2021) for more details.
+* `ultrametricTrees.R` simulates sets of equidistant phylogenetic trees, where the distance from the root to every leaf is constant, and creates triangles where every tree is a vertex and computes its Alexandrov curvature.
+
+The `Sampling_Triangles` directory contains the following set of R scripts:
+* `experiments_n.R` samples tropical triangles by type and returns the proportion of their curvature type as a percentage.
+
+### Running Scripts and Reproducing Results
+
+To replicate results similar to those presented in Améndola and Monod (2021):
+1. Make sure that the current working directory contains all elements from this TropAlex repo;
+2. Run each R script separately.
 
 ## Relevant Citations
 Carlos Améndola and Anthea Monod. An Invitation to Tropical Alexandrov Curvature. arXiv:2105.07423.
