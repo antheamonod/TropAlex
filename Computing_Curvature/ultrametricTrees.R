@@ -1,3 +1,6 @@
+# This code generates ultrametric trees and samples from the generated batch and computes curvature
+# Author: Beatrice Matteo; code to generate the ultrametric trees was provided by Ruriko Yoshida
+
 generateUltra <- function(split) {
   D = c()
   delta <- seq(0.41, 2, by = 0.01)
