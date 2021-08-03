@@ -30,6 +30,8 @@ The `Computing_Curvature` directory contains the following set of R scripts:
 
 The `Sampling_Triangles` directory contains the following set of R scripts:
 * `experiments_n.R` samples tropical triangles by type and returns the proportion of their curvature type as a percentage.
+* `samplingTriangles.R` samples tropical triangles with random coordinates and integer coordinates and computes curvature using both the `Curvature2D.R` and `CurvatureND.R` scripts.  This script also generates random phylogenetic trees using the R library `ape` and computes curvature (these analyses were not included in the reference by Améndola and Monod (2021)).
+* `samplingTypes.R` samples tropical triangles by combinatorial types 1 and 5 and computes Alexandrov curvature.
 
 ### Running Scripts and Reproducing Results
 
