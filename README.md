@@ -6,7 +6,7 @@ The code provided in this repository is for the numerical study of Alexandrov cu
 
 For further detail on Alexandrov curvature, the tropical metric and the tropical projective torus, please see [Améndola and Monod (2021)](https://arxiv.org/abs/2105.07423) and the references therein.
 
-### The R Environment
+## The R Environment
 R is a widely used, free, and open source software environment for statistical computing and graphics.  The most recent version of R can be downloaded from the [Comprehensive R Archive Network (CRAN)](http://cran.r-project.org/).  CRAN provides precompiled binary versions of R for Windows, MacOS, and select Linux distributions that are likely sufficient for many users' needs.  Users can also install R from source code; however, this may require a significant amount of effort.  For specific details on how to compile, install, and manage R and R-packages, refer to the manual [R Installation and Administration](http://cran.r-project.org/doc/manuals/r-release/R-admin.html).
 
 ### R Packages Required for Sampling Tropical Triangles
@@ -20,10 +20,16 @@ The easiest method to install this package is with the following example command
 
 Alternatively, it is also possible to [install R packages from the command line](http://cran.r-project.org/doc/manuals/r-release/R-admin.html#Installing-packages).
 
-### Relevant Citations
+## Description of R Scripts
+
+The `Computing_Curvature` directory contains the following set of R scripts:
+* `Curvature2D.R` which computes the curvature of tropical triangles in the 3-dimensional tropical projective torus (plane)
+* `CurvatureND.R` computes the curvature of tropical triangles in the n-dimensional tropical projective torus
+
+## Relevant Citations
 Carlos Améndola and Anthea Monod. An Invitation to Tropical Alexandrov Curvature. arXiv:2105.07423.
 
-### Credit
+## Credit
 
 Beatrice Matteo contributed to this repository in partial fulfillment of requirements for the degree of MSc in Statistics at Imperial College London.
 
