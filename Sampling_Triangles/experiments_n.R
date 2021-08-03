@@ -1,3 +1,6 @@
+# This code samples tropical triangles by type and returns the proportion of their curvature type as a percentage
+# Author: Carlos Améndola
+
 library(hitandrun)
 n <- 2
 set.seed(25)
