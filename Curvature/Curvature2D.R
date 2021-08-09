@@ -1,7 +1,7 @@
 # This code computes the curvature of a tropical triangle with bidimensional coordinates
 # in the tropical projective torus R^3/R1
 
-dtr2 <- function (x, y){
+dtr2 <- function (x, y){  
   x = c(0,x)
   y = c(0,y)
   return (max(x-y) - min(x-y))
